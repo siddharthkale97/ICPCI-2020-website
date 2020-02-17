@@ -1,13 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 body {
   background: #fff;
@@ -470,7 +460,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro {
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   background: url(../img/campuslife1.jpg) top center;
   background-size: cover;
   overflow: hidden;
@@ -785,11 +775,77 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Committee Section
+--------------------------------------------------------------*/
+
+#committee {
+  padding: 60px 0;
+}
+
+#committee .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#committee .details h3 {
+  color: #353536;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#committee .details .social {
+  margin-bottom: 15px;
+}
+
+#committee .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding-top: 9px;
+}
+
+#committee .details .social a:hover {
+  background: #91a7e4;
+  color: #fff;
+}
+
+#committee .details .social a i {
+  font-size: 18px;
+}
+
+#committee .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#committee img{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+
+/*--------------------------------------------------------------
 # Patrons Section
 --------------------------------------------------------------*/
 
 #patrons {
   padding: 60px 0 30px 0;
+}
+
+#patrons img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 
 #patrons .speaker {
